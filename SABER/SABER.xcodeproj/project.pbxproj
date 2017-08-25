@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3A344A781F4F53EC00B28C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344A771F4F53EC00B28C9D /* AppDelegate.swift */; };
-		3A344A7A1F4F53EC00B28C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344A791F4F53EC00B28C9D /* ViewController.swift */; };
 		3A344A7D1F4F53EC00B28C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A344A7B1F4F53EC00B28C9D /* Main.storyboard */; };
 		3A344A801F4F53EC00B28C9D /* SABER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A344A7E1F4F53EC00B28C9D /* SABER.xcdatamodeld */; };
 		3A344A821F4F53EC00B28C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A344A811F4F53EC00B28C9D /* Assets.xcassets */; };
 		3A344A851F4F53EC00B28C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A344A831F4F53EC00B28C9D /* LaunchScreen.storyboard */; };
 		3A344A901F4F53EC00B28C9D /* SABERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344A8F1F4F53EC00B28C9D /* SABERTests.swift */; };
 		3A344A9B1F4F53EC00B28C9D /* SABERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344A9A1F4F53EC00B28C9D /* SABERUITests.swift */; };
+		3A344AAF1F4F946B00B28C9D /* icon_saber.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3A344AAE1F4F946B00B28C9D /* icon_saber.svg */; };
+		3A344AB11F4F952B00B28C9D /* logo_saber.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A344AB01F4F952B00B28C9D /* logo_saber.png */; };
+		3A344AB51F4F95FC00B28C9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		3A344A741F4F53EC00B28C9D /* SABER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SABER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A344A771F4F53EC00B28C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A344A791F4F53EC00B28C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A344A7C1F4F53EC00B28C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A344A7F1F4F53EC00B28C9D /* SABER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SABER.xcdatamodel; sourceTree = "<group>"; };
 		3A344A811F4F53EC00B28C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		3A344A961F4F53EC00B28C9D /* SABERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SABERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A344A9A1F4F53EC00B28C9D /* SABERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SABERUITests.swift; sourceTree = "<group>"; };
 		3A344A9C1F4F53EC00B28C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A344AAE1F4F946B00B28C9D /* icon_saber.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = icon_saber.svg; path = Assets.xcassets/icon_saber.svg; sourceTree = "<group>"; };
+		3A344AB01F4F952B00B28C9D /* logo_saber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_saber.png; path = Assets.xcassets/logo_saber.png; sourceTree = "<group>"; };
+		3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3A344A771F4F53EC00B28C9D /* AppDelegate.swift */,
-				3A344A791F4F53EC00B28C9D /* ViewController.swift */,
+				3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -154,6 +158,8 @@
 		3A344AAC1F4F54E100B28C9D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				3A344AB01F4F952B00B28C9D /* logo_saber.png */,
+				3A344AAE1F4F946B00B28C9D /* icon_saber.svg */,
 				3A344A811F4F53EC00B28C9D /* Assets.xcassets */,
 			);
 			name = Assets;
@@ -279,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A344A851F4F53EC00B28C9D /* LaunchScreen.storyboard in Resources */,
+				3A344AAF1F4F946B00B28C9D /* icon_saber.svg in Resources */,
 				3A344A821F4F53EC00B28C9D /* Assets.xcassets in Resources */,
 				3A344A7D1F4F53EC00B28C9D /* Main.storyboard in Resources */,
+				3A344AB11F4F952B00B28C9D /* logo_saber.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A344A7A1F4F53EC00B28C9D /* ViewController.swift in Sources */,
+				3A344AB51F4F95FC00B28C9D /* LoginViewController.swift in Sources */,
 				3A344A781F4F53EC00B28C9D /* AppDelegate.swift in Sources */,
 				3A344A801F4F53EC00B28C9D /* SABER.xcdatamodeld in Sources */,
 			);
