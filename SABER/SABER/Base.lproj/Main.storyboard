@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_saber.png" translatesAutoresizingMaskIntoConstraints="NO" id="rye-6W-GLL">
-                                <rect key="frame" x="10" y="147" width="355" height="162"/>
+                                <rect key="frame" x="-13" y="129" width="396" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
