@@ -17,6 +17,9 @@
 		3A344AAF1F4F946B00B28C9D /* icon_saber.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3A344AAE1F4F946B00B28C9D /* icon_saber.svg */; };
 		3A344AB11F4F952B00B28C9D /* logo_saber.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A344AB01F4F952B00B28C9D /* logo_saber.png */; };
 		3A344AB51F4F95FC00B28C9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */; };
+		3A344AB71F4FC44100B28C9D /* GetFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB61F4FC44100B28C9D /* GetFunctions.swift */; };
+		3A344ABA1F4FCDCE00B28C9D /* PostFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB91F4FCDCE00B28C9D /* PostFunctions.swift */; };
+		3A344ABC1F50B60700B28C9D /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344ABB1F50B60700B28C9D /* ForumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		3A344AAE1F4F946B00B28C9D /* icon_saber.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = icon_saber.svg; path = Assets.xcassets/icon_saber.svg; sourceTree = "<group>"; };
 		3A344AB01F4F952B00B28C9D /* logo_saber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_saber.png; path = Assets.xcassets/logo_saber.png; sourceTree = "<group>"; };
 		3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A344AB61F4FC44100B28C9D /* GetFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFunctions.swift; sourceTree = "<group>"; };
+		3A344AB91F4FCDCE00B28C9D /* PostFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFunctions.swift; sourceTree = "<group>"; };
+		3A344ABB1F50B60700B28C9D /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,8 @@
 		3A344AA81F4F53FB00B28C9D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A344AB61F4FC44100B28C9D /* GetFunctions.swift */,
+				3A344AB91F4FCDCE00B28C9D /* PostFunctions.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			children = (
 				3A344A771F4F53EC00B28C9D /* AppDelegate.swift */,
 				3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */,
+				3A344ABB1F50B60700B28C9D /* ForumViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -314,7 +323,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A344AB51F4F95FC00B28C9D /* LoginViewController.swift in Sources */,
+				3A344ABA1F4FCDCE00B28C9D /* PostFunctions.swift in Sources */,
+				3A344ABC1F50B60700B28C9D /* ForumViewController.swift in Sources */,
 				3A344A781F4F53EC00B28C9D /* AppDelegate.swift in Sources */,
+				3A344AB71F4FC44100B28C9D /* GetFunctions.swift in Sources */,
 				3A344A801F4F53EC00B28C9D /* SABER.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
