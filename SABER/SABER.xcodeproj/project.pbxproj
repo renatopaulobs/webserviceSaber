@@ -19,7 +19,8 @@
 		3A344AB51F4F95FC00B28C9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */; };
 		3A344AB71F4FC44100B28C9D /* GetFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB61F4FC44100B28C9D /* GetFunctions.swift */; };
 		3A344ABA1F4FCDCE00B28C9D /* PostFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AB91F4FCDCE00B28C9D /* PostFunctions.swift */; };
-		3A344ABC1F50B60700B28C9D /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344ABB1F50B60700B28C9D /* ForumViewController.swift */; };
+		3A344ABF1F522D7400B28C9D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344ABE1F522D7400B28C9D /* CustomCell.swift */; };
+		3A344AC11F5248B400B28C9D /* ForumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A344AC01F5248B400B28C9D /* ForumTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +59,8 @@
 		3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3A344AB61F4FC44100B28C9D /* GetFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFunctions.swift; sourceTree = "<group>"; };
 		3A344AB91F4FCDCE00B28C9D /* PostFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFunctions.swift; sourceTree = "<group>"; };
-		3A344ABB1F50B60700B28C9D /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		3A344ABE1F522D7400B28C9D /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3A344AC01F5248B400B28C9D /* ForumTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +161,8 @@
 			children = (
 				3A344A771F4F53EC00B28C9D /* AppDelegate.swift */,
 				3A344AB41F4F95FC00B28C9D /* LoginViewController.swift */,
-				3A344ABB1F50B60700B28C9D /* ForumViewController.swift */,
+				3A344ABE1F522D7400B28C9D /* CustomCell.swift */,
+				3A344AC01F5248B400B28C9D /* ForumTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -324,9 +327,10 @@
 			files = (
 				3A344AB51F4F95FC00B28C9D /* LoginViewController.swift in Sources */,
 				3A344ABA1F4FCDCE00B28C9D /* PostFunctions.swift in Sources */,
-				3A344ABC1F50B60700B28C9D /* ForumViewController.swift in Sources */,
 				3A344A781F4F53EC00B28C9D /* AppDelegate.swift in Sources */,
 				3A344AB71F4FC44100B28C9D /* GetFunctions.swift in Sources */,
+				3A344AC11F5248B400B28C9D /* ForumTableViewController.swift in Sources */,
+				3A344ABF1F522D7400B28C9D /* CustomCell.swift in Sources */,
 				3A344A801F4F53EC00B28C9D /* SABER.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

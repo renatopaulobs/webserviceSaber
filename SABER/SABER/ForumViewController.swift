@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ForumViewController: UITableViewController {
+class ForumViewController: UITableViewController{
 
+    // MARK: - Variables
+   
+    var titles = ["Inicio", "Meio", "Fim"]
+    var author = ["Joao","Mario", "Pedro"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +27,32 @@ class ForumViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        // Table view cells are reused and should be dequeued using a cell identifier.
+        let cellIdentifier = "Cell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? CustomCell  else {
+            fatalError("The dequeued cell is not an instance of MealTableViewCell.")
+        }
+        
+        // Fetches the appropriate meal for the data source layout.
+        
+        cell.title.text = titles[indexPath.row]
+        cell.author.text = author[indexPath.row]
+        
+        
+        return cell
+    }
+    // MARK: - TableView
 
+   
 }
